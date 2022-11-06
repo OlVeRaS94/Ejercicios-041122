@@ -1,0 +1,42 @@
+.caja {
+    border: 0.375em solid rgb(180, 163, 163);
+    margin: 0.125em 20.938em 0.125em 0.313em;
+    max-width: 16.75em;
+    min-width: 16.75em;
+  }
+  .caja2 {
+    border: 0.125em solid #1894bd;
+    margin: 0.065em 0.006em 0.065em 0.031em;
+  }
+  .caja3 {
+    border-top: 0.313em solid white;
+    border-right: 0.625em solid #343a33;
+    border-bottom: 0.625em solid #343a33;
+    border-left: 0.313em solid white;
+    }
+    
+  
+  table {
+    border: 0.188em solid #1894bd;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border: 0.188em solid #1894bd;
+    color: #bbeebf;
+    background-color: #003333;
+  }
+  
+  td {
+    border: 0.188em solid #1894bd;
+    background-color: #ccffcc;
+  }
+  .deportes {
+    border: 0.188em solid #1894bd;
+    background-color: #99cc99;
+  } 
+  .dinero{
+    text-align: center;
+    border: 0.188em solid #1894bd;
+    background-color: #99cc99;
+  }
