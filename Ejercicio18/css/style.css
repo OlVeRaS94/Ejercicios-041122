@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#caja {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(127, 208, 255);
+}
+#nubes,
+#mario {
+  width: 100vw;
+}
+
+#nubes {
+  background: url(../imagen/f03.png);
+  background-repeat: repeat-x;
+  height: 100%;
+}
+
+.medioSuelo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sueloMario {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#mario {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#suelo {
+  position: absolute;
+  width: 100vw;
+  height: 1em;
+  background: url(../imagen/f01.png);
+  background-repeat: repeat;
+  background-size: contain;
+}
